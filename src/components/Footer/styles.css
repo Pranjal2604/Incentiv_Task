@@ -1,0 +1,15 @@
+.Footer-section{
+
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    /* flex-direction: row-reverse; */
+    height: 100vh;
+    /* background: #060606; */
+    
+background: #0D1329;
+    padding: 10px 100px ;
+    background-size: cover;
+    justify-content: center;
+   
+}

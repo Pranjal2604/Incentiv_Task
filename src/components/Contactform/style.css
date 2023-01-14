@@ -1,0 +1,65 @@
+.contact-section{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    /* flex-direction: row-reverse; */
+    height: 100vh;
+    background: #060606;
+    padding: 10px 100px ;
+    background-size: cover;
+    justify-content: center;
+  
+}
+
+
+
+.contact-container{
+
+padding: 100px;
+    width: 1146px;
+    height: 576.01px;
+    /* left: 181px;
+    top: 124.49px; */
+}
+
+.contact-heading{
+
+    width: 501px;
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 39px;
+
+
+color: #7F9AFD;
+}
+
+.Contact-para{
+margin-top: 10px;
+width: 565px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 25px;
+
+
+
+color: #9F9F9F;
+}
+
+.contact-semi-heading{
+width: 393;
+margin: 30px 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+   
+    color: #DDDDDD;
+    
+
+}

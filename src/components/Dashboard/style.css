@@ -23,7 +23,7 @@
 }
 .dashbord-text-section{
 
-  /* flex-direction: column; */
+  flex-direction: column;
 
 }
 .dash-img{
