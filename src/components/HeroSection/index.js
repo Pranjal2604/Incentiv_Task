@@ -7,8 +7,7 @@ const HeroSection = () => {
   return (
     <div className='hero-section-container'>
       <div className='Text-container'>
-    <h1 className='heading-text'> Streamline HOW
-          YOU MANAGE 
+    <h1 className='heading-text'> Streamline How You Manage
           <span className='text-blue'>ESOPs</span>
    </h1>
    <p className='Para-text'> Incentiv offers an easy way for employers to issue 
