@@ -1,14 +1,14 @@
 .hero-section-container{
     
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     justify-content: space-between;
     /* flex-direction: row-reverse; */
     height: 100vh;
     background-color: black;
     padding: 10px 100px ;
     background-size: cover;
-    justify-content: center;
+    
     
 
     
@@ -17,11 +17,6 @@
   
 }
 
-.Text-container{
-
-    margin:auto 0;
-   
-}
 
 .heading-text{
    

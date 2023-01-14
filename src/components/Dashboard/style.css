@@ -2,25 +2,19 @@
 .dashboard-section {
 
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     justify-content: space-between;
     /* flex-direction: row-reverse; */
     height: 100vh;
     background: linear-gradient(142.29deg, #000000 7.86%, #010928 92.51%);
     padding: 10px 100px ;
     background-size: cover;
-    justify-content: center;
+    /* justify-content: center; */
   
 
 }
 
-.dashboard-section{
-   display: flexbox;
-  /* justify-content: center; */
-  flex-direction:column;
-  
- 
-}
+
 .dashbord-text-section{
 
   flex-direction: column;
@@ -28,8 +22,8 @@
 }
 .dash-img{
 
-  display: flexbox;
-  position: absolute;
+  
+ 
   width: 50%;
   height: auto;
 
