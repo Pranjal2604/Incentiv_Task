@@ -4,7 +4,7 @@
     /* align-items: center; */
     justify-content: space-between;
     /* flex-direction: row-reverse; */
-    height: 90vh;
+    height: 100vh;
     background-color: black;
     padding: 10px 100px ;
     background-size: cover;
@@ -60,7 +60,7 @@ color: #66B8FF;
     text-align: justify;
     letter-spacing: 0.01rem;
     color: #9F9F9F;
-
+    margin: 20px 0;
 }
 
 .hero-img{
