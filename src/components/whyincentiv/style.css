@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: space-between;
     background-color: black;
-    padding: 100px ;
+    padding:  50px 100px ;
     background-size: cover;
   
 
@@ -20,7 +20,7 @@ width: 40%;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
-font-size: 45px;
+font-size: 28px;
 line-height: 39px;
 color: white;
 background-color: black;
@@ -30,22 +30,22 @@ padding-left: 100px;
 }
 
 .h1-text{
-     width: 378px;
+     width: 342px;
     font-family: 'Inter';
 font-style: normal;
 font-weight: 600;
-font-size: 2rem;
+font-size: 28px;
 line-height: 36px;
 color: #9747FF;
-margin-bottom: 50px;
+margin-bottom: 30px;
 }
 
 .p1-text{
-     width: 378px;
+     width: 748px;
     font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 1.5rem;
+font-size: 18;
 line-height: 25px;
 color: #C7C7C7;
 

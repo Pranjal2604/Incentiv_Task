@@ -1,0 +1,24 @@
+.offer-section-container {
+
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-between;
+    background-color: black;
+    padding:  50px 100px ;
+    background-size: cover;
+}
+
+.offer-heading-text{
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 39px;
+color: white;
+background-color: black;
+margin: 0;
+padding-left: 100px;
+
+}

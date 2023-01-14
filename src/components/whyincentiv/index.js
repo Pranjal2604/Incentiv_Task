@@ -17,7 +17,7 @@ const Infosection = () => {
               <LinearProgress
                 sx={{
                   width: 5,
-                  height: 700,
+                  height: 437,
                   color: "magenta",
                   backgroundColor: `#A020F0`,
                   "& .MuiLinearProgress-bar": {
@@ -37,6 +37,10 @@ const Infosection = () => {
 <h1 className='h1-text'> Manage the complete ESOP lifecycle</h1>
 <p1 className='p1-text'> From issuing grants to liquidity events. Handle everything digitally. Manage multiple instruments or unique vesting schedules with ease.
 </p1>
+
+<h1 className='h1-text'> Single Source of Truth
+</h1>
+<p1 className='p1-text'> All transactions updated in real time, whether it is a grant being issued, employee exiting or options being exercised. Connected data flows mean fewer errors. Every event recorded with a complete audit trail.</p1>
             </div>
 
 
