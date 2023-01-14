@@ -23,7 +23,7 @@
 .heading-text{
    
    margin: 0;
-    width: 600px;
+    width: 500px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -51,13 +51,14 @@ color: #66B8FF;
 }
 .Para-text{
 
-    width: 35%;
+    width: 40%;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
-    text-align: start;
+    text-align: justify;
+    letter-spacing: 0.01rem;
     color: #9F9F9F;
 
 }
