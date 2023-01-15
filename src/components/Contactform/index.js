@@ -91,8 +91,6 @@ const Contactform = () => {
             variant="contained"
             className="form-btn"
             sx={{
-              // backgroundColor: "#7E8AB5;",
-              // borderRadius: 3,
               marginBottom: 2,
               marginTop: 3,
             }}
