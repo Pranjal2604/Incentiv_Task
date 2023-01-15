@@ -1,15 +1,141 @@
 .Footer-section{
 
-    display: flex;
-    /* align-items: center; */
-    justify-content: space-between;
-    /* flex-direction: row-reverse; */
+     display: flex;
+   flex-direction: column;
     height: 100vh;
-    /* background: #060606; */
+    
     
 background: #0D1329;
     padding: 10px 100px ;
     background-size: cover;
     justify-content: center;
    
+}
+
+.up-foot{
+
+    display: flex;
+    justify-content: space-between;
+    
+
+
+}
+
+.foot-title{
+
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+
+color: #7F9AFD;
+}
+
+.foot-para{
+    width: 401px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+text-align: justify;
+
+color: #A3A3A3;
+}
+
+.contact-title{
+
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+
+color: #7F9AFD;
+}
+
+.contact-detail{
+
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+
+color: #A3A3A3;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.privacy-title{
+
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+/* text-align: right; */
+
+color: #7F9AFD;
+
+}
+
+.privacy-detail{
+
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+/* text-align: right; */
+
+color: #A3A3A3;
+
+}
+
+.head-disclamer{
+
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+
+color: #7F9AFD;
+
+}
+
+.para-disclamer{
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 26px;
+    /* or 221% */
+    
+    text-align: justify;
+    letter-spacing: -0.02em;
+    
+    color: #A3A3A3;
 }

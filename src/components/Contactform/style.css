@@ -1,21 +1,21 @@
 .contact-section{
-    display: flex;
-    /* align-items: center; */
+    /* display: flex; */
+    align-items: center;
     justify-content: space-between;
-    /* flex-direction: row-reverse; */
     height: 100vh;
     background: #060606;
     padding: 10px 100px ;
     background-size: cover;
-    justify-content: center;
+   
   
 }
 
 
 
 .contact-container{
-
-padding: 100px;
+display: flex;
+flex-direction: row-reverse;
+padding: 80px;
     width: 1146px;
     height: 576.01px;
     /* left: 181px;
@@ -61,5 +61,265 @@ margin: 30px 0;
    
     color: #DDDDDD;
     
+
+}
+.contact-detail{
+    width: 60%;
+}
+
+.demo-section{  
+    
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    /* justify-content: start; */
+    /* column-count: 1; */
+
+}
+.demo-subsection{  
+    
+    display: flex;
+    flex-direction: row;
+    gap: 21px;
+    /* column-count: 1; */
+
+}
+.d-text{
+
+    display: flex;
+/* flex-direction: row; */
+align-items: center;
+justify-content: center;
+padding: 16px 27px;
+/* gap: 21px; */
+border: 1px solid gray;
+/* position: absolute; */
+width: 246px;
+height: 108px;
+/* left: 445px;
+top: 437px; */
+
+/* Gray/ 13 */
+
+background: #0B0B0B;
+border-radius: 20px;
+/* 
+width: 134px;
+height: 51px; */
+
+/* Body 1/ Regular */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+/* or 140% */
+
+
+/* Gray/ 02 */
+
+color: #DDDDDD;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.D-text-2{
+
+    /* display: flex; */
+/* flex-direction: row; */
+align-items: center;
+padding: 16px 27px;
+/* gap: 21px; */
+
+/* position: absolute; */
+width: 246px;
+height: 108px;
+/* left: 445px;
+top: 437px; */
+
+/* Gray/ 13 */
+
+background: #0B0B0B;
+border-radius: 20px;
+/* 
+width: 134px;
+height: 51px; */
+
+/* Body 1/ Regular */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+/* or 140% */
+
+
+/* Gray/ 02 */
+
+color: #DDDDDD;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.D-text-3{
+
+    /* display: flex; */
+/* flex-direction: row; */
+align-items: center;
+padding: 16px 27px;
+/* gap: 21px; */
+
+/* position: absolute; */
+width: 246px;
+height: 108px;
+/* left: 445px;
+top: 437px; */
+
+/* Gray/ 13 */
+
+background: #0B0B0B;
+border-radius: 20px;
+/* 
+width: 134px;
+height: 51px; */
+
+/* Body 1/ Regular */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+/* or 140% */
+
+
+/* Gray/ 02 */
+
+color: #DDDDDD;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+
+.D-text-4{
+
+    /* display: flex; */
+/* flex-direction: row; */
+align-items: center;
+padding: 16px 27px;
+/* gap: 21px; */
+
+/* position: absolute; */
+width: 246px;
+height: 108px;
+/* left: 445px;
+top: 437px; */
+
+/* Gray/ 13 */
+
+background: #0B0B0B;
+border-radius: 20px;
+/* 
+width: 134px;
+height: 51px; */
+
+/* Body 1/ Regular */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+/* or 140% */
+
+
+/* Gray/ 02 */
+
+color: #DDDDDD;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.contact-form-field{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    /* justify-content: space-between; */
+height: fit-content;
+padding: 10px 5px;
+
+
+background: #000C34;
+border-radius: 20.9143px;
+}
+
+.demo-text{
+margin: 30px 0 ;
+    width: 139px;
+/* justify-content: center; */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 17.4286px;
+line-height: 24px;
+
+
+text-transform: uppercase;
+
+color: #7F9AFD;
+
+}
+
+.input-container{
+    display: flex;
+    width: 85%;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+}
+.form{
+    margin: 10px;
+}
+
+.form-btn{
+    margin: 100px 0;
+    width: 288px;
+    height: 56px;
+    background: linear-gradient(91.19deg, #0061FF 24.65%, #60EFFF 123.14%);
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #EEEEEE;
+    /* flex: none; */
+    /* order: 0; */
+    /* flex-grow: 0; */
+    /* justify-content: center; */
 
 }
