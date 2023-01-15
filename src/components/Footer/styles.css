@@ -16,13 +16,14 @@ background: #0D1329;
 
     display: flex;
     justify-content: space-between;
+    align-items: center;
     
 
 
 }
 
 .foot-title{
-
+margin-bottom: 20px;
     
 font-family: 'Poppins';
 font-style: normal;
@@ -47,9 +48,13 @@ text-align: justify;
 color: #A3A3A3;
 }
 
+.contact-contain{
+
+   justify-content: space-between;
+}
 .contact-title{
 
-    
+    /* margin-top: 0px; */
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 700;
@@ -63,6 +68,8 @@ color: #7F9AFD;
 
 .contact-detail{
 
+margin-top: 20px;
+
     font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
@@ -70,19 +77,22 @@ font-size: 18px;
 line-height: 27px;
 /* identical to box height */
 
-
 color: #A3A3A3;
 
+}
+.mail-txt{
+margin-bottom: 20px;
+    width:182px;}
 
-/* Inside auto layout */
+.add-text{
 
-flex: none;
-order: 1;
-flex-grow: 0;
+    width: 283px;
 }
 
-.privacy-title{
 
+
+.privacy-title{
+/* margin-top: 20px; */
     font-family: 'Poppins';
 font-style: normal;
 font-weight: 700;
@@ -98,21 +108,26 @@ color: #7F9AFD;
 
 .privacy-detail{
 
-    font-family: 'Poppins';
+font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
 font-size: 18px;
 line-height: 27px;
-/* identical to box height */
-
-/* text-align: right; */
-
 color: #A3A3A3;
 
 }
+.privacy-text{
+
+    margin: 20px 0;
+}
+
+.term-text{
+
+    margin-top: 20px;
+}
 
 .head-disclamer{
-
+margin-top: 90px;
     font-family: 'Poppins';
 font-style: normal;
 font-weight: 700;
@@ -136,6 +151,6 @@ color: #7F9AFD;
     
     text-align: justify;
     letter-spacing: -0.02em;
-    
+    width: 93%;
     color: #A3A3A3;
 }
